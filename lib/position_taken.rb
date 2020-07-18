@@ -16,12 +16,12 @@ def position_taken?(board, position)
   #   return true
   #   taken = true
   # end
-  (board[position] ==  " " || board[position] == "" || board[position] == nil) ? 
+  (board[position] ==  " " || board[position] == "" || board[position] == nil) ?
   # taken
 
   # advanced solution w/ ternary operator
   (board[index] ==  " " || board[index] == "" || board[index] == nil) ?
     false : true
 
-end 
+end
 end# code your #position_taken? method here!
